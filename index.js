@@ -33,8 +33,7 @@ async function askName() {
             return 'Player'
         },
     })
-    if (answers.player_name.toLowerCase() === 'dani') playerName = 'love'
-    else playerName = answers.player_name;
+    playerName = answers.player_name;
     console.log(`
     Hi ${playerName},
     let's start the game!`)
